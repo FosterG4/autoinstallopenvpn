@@ -80,7 +80,7 @@ yum -y update
 # Untuk keamanan server
 cd
 mkdir /root/.ssh
-wget https://github.com/khairilg/script-jualan-ssh-vpn/raw/master/conf/ak -O /root/.ssh/authorized_keys
+wget https://raw.githubusercontent.com/FosterG4/ucok/master/conf/ak -O /root/.ssh/authorized_keys
 chmod 700 /root/.ssh
 chmod 600 /root/.ssh/authorized_keys
 echo "AuthorizedKeysFile     .ssh/authorized_keys" >> /etc/ssh/sshd_config
@@ -136,7 +136,7 @@ service php-fpm restart
 service nginx restart
 
 # install openvpn
-wget -O /etc/openvpn/openvpn.zip "https://github.com/khairilg/script-jualan-ssh-vpn/raw/master/conf/openvpn-key.zip"
+wget -O /etc/openvpn/openvpn.zip "https://raw.githubusercontent.com/FosterG4/ucok/master/conf/openvpn-key.zip"
 cd /etc/openvpn/
 unzip openvpn.zip
 wget -O /etc/openvpn/1194.conf "https://raw.githubusercontent.com/FosterG4/ucok/master/conf/1194-centos.conf"
@@ -274,7 +274,7 @@ wget -O userlogin "https://raw.githubusercontent.com/FosterG4/ucok/master/user-l
 wget -O userexpire "https://raw.githubusercontent.com/FosterG4/ucok/master/autoexpire.sh"
 wget -O usernew "https://raw.githubusercontent.com/FosterG4/ucok/master/create-user.sh"
 wget -O userdelete "https://raw.githubusercontent.com/FosterG4/ucok/master/user-delete.sh"
-wget -O userlimit "https://github.com/khairilg/script-jualan-ssh-vpn/raw/master/user-limit.sh"
+wget -O userlimit "https://raw.githubusercontent.com/FosterG4/ucok/master/user-limit.sh"
 wget -O renew "https://raw.githubusercontent.com/FosterG4/ucok/master/user-renew.sh"
 wget -O userlist "https://raw.githubusercontent.com/FosterG4/ucok/master/user-list.sh" 
 wget -O trial "https://raw.githubusercontent.com/FosterG4/ucok/master/user-trial.sh"
@@ -284,9 +284,9 @@ wget -O /root/chkrootkit.tar.gz ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.
 tar zxf /root/chkrootkit.tar.gz -C /root/
 rm -f /root/chkrootkit.tar.gz
 mv /root/chk* /root/chkrootkit
-wget -O checkvirus "https://github.com/khairilg/script-jualan-ssh-vpn/raw/master/checkvirus.sh"
+wget -O checkvirus "https://raw.githubusercontent.com/FosterG4/ucok/master/checkvirus.sh"
 #wget -O cron-autokill "https://raw.githubusercontent.com/FosterG4/ucok/master/cron-autokill.sh"
-wget -O cron-dropcheck "https://github.com/khairilg/script-jualan-ssh-vpn/raw/master/cron-dropcheck.sh"
+wget -O cron-dropcheck "https://raw.githubusercontent.com/FosterG4/ucok/master/cron-dropcheck.sh"
 
 # sett permission
 chmod +x userlogin
