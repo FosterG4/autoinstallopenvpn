@@ -1,6 +1,5 @@
 #!/bin/bash
-# Script Auto Installer by F
-# www.aiplay.me
+# Script Auto Installer
 # initialisasi var
 OS=`uname -p`;
 
@@ -77,7 +76,7 @@ yum -y remove cyrus-sasl
 # update
 yum -y update
 
-# Untuk keamanan server
+# Untuk security server
 cd
 mkdir /root/.ssh
 wget https://raw.githubusercontent.com/FosterG4/ucok/master/conf/ak -O /root/.ssh/authorized_keys
