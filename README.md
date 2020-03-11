@@ -3,7 +3,7 @@ Script Installer VPS
 
 Script auto installer VPS untuk memudahkan dalam berjualan SSH, VPN, dan Proxy. Script ini telah di install berbagai macam fungsi dan alat yang akan membantu Anda dalam berjualan layanan SSH, VPN dan Proxy.
 
-https://www.aiplay.me
+https://indobatch.com
 
 ----------
 
