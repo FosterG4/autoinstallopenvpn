@@ -280,10 +280,10 @@ wget -O userlist "https://raw.githubusercontent.com/FosterG4/ucok/master/user-li
 wget -O trial "https://raw.githubusercontent.com/FosterG4/ucok/master/user-trial.sh"
 echo "cat /root/log-install.txt" | tee info
 echo "speedtest --share" | tee speedtest
-wget -O /root/chkrootkit.tar.gz ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.tar.gz
-tar zxf /root/chkrootkit.tar.gz -C /root/
-rm -f /root/chkrootkit.tar.gz
-mv /root/chk* /root/chkrootkit
+#wget -O /root/chkrootkit.tar.gz ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.tar.gz
+#tar zxf /root/chkrootkit.tar.gz -C /root/
+#rm -f /root/chkrootkit.tar.gz
+#mv /root/chk* /root/chkrootkit
 wget -O checkvirus "https://raw.githubusercontent.com/FosterG4/ucok/master/checkvirus.sh"
 #wget -O cron-autokill "https://raw.githubusercontent.com/FosterG4/ucok/master/cron-autokill.sh"
 wget -O cron-dropcheck "https://raw.githubusercontent.com/FosterG4/ucok/master/cron-dropcheck.sh"
