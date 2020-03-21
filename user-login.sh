@@ -36,6 +36,3 @@ echo "Untuk kill user log in, gunakan command  ";
 echo "kill -9 (nomerid)                        ";
 echo "contoh : kill -9 28651 ";
 echo "-----------------------------------------";
-echo "--------------  Indoworx  ---------------";
-echo "----------  www.indoworx.com  -----------";
-echo "-----------------------------------------";
